@@ -12,4 +12,5 @@ public class ArrPlusArr {
     public static int arrPlusArr(int[] arr1, int[] arr2) {
         return IntStream.of(arr1).sum() + IntStream.of(arr2).sum();
     }
+    // hello
 }

@@ -18,11 +18,7 @@ public class FindOdd {
     // or
     public static int findItt(int[] a) {
         int res = 0;
-        System.out.println(Arrays.toString(a));
-        for (int i = 0; i < a.length; i++) {
-            res ^= a[i];
-            System.out.println(res);
-        }
+        for (int j : a) res ^= j;
         return res;
     }
 }

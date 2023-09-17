@@ -1,7 +1,4 @@
 package Kata;
-
-import java.util.Arrays;
-
 public class Accumul {
     public static String accum(String s) {
         String[] arr = s.toUpperCase().split("");
@@ -12,5 +9,4 @@ public class Accumul {
         }
         return String.join("-", arr);
     }
-
 }
